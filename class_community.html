@@ -288,20 +288,20 @@
         // =========================================================================
         // [설정 1] Firebase 프로젝트 설정 (내 Firebase 웹앱의 firebaseConfig 값으로 { } 안을 통째로 교체)
         // =========================================================================
-     const firebaseConfig = {
-    apiKey: "AIzaSyBnjEwaWe1fKzzm-hA6HkRKrRAANuxbTZU",
-    authDomain: "vibe-class-7-611f5.firebaseapp.com",
-    projectId: "vibe-class-7-611f5",
-    storageBucket: "vibe-class-7-611f5.firebasestorage.app",
-    messagingSenderId: "457082130745",
-    appId: "1:457082130745:web:6ba4e9b50d515a617e98e8"
-  };
+ const firebaseConfig = {
+  apiKey: "AIzaSyBnjEwaWe1fKzzm-hA6HkRKrRAANuxbTZU",
+  authDomain: "vibe-class-7-611f5.firebaseapp.com",
+  projectId: "vibe-class-7-611f5",
+  storageBucket: "vibe-class-7-611f5.firebasestorage.app",
+  messagingSenderId: "457082130745",
+  appId: "1:457082130745:web:6ba4e9b50d515a617e98e8"
+};
 
         // =========================================================================
         // [설정 2] Supabase Edge Function URL 설정
         // ⚠️ 따옴표 안의 주소 전체를 Supabase 함수 화면의 복사 버튼으로 복사한 주소로 바꿔 주세요. (직접 타이핑 금지)
         // =========================================================================
-        const SUPABASE_EDGE_FUNCTION_URL = "https://여기에_SUPABASE_PROJECT_REF.supabase.co/functions/v1/class-pdf-download";
+        const SUPABASE_EDGE_FUNCTION_URL = "https://akqlcfexvrsybleiajlv.supabase.co/functions/v1/class-pdf-download";
 
         const app = initializeApp(firebaseConfig);
         const auth = getAuth(app);
